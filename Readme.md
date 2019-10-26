@@ -1,6 +1,6 @@
 
-# static-site
+# Pug and stylus based boilerplate using Metalsmith
 
-This example uses Metalsmith to make a static site. To test it out yourself just run:
+This app uses Metalsmith to output a basic website. To generate a 'Hello World' page run:
 
-    $ make build
+    $ make
