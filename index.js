@@ -2,8 +2,6 @@ const fsExtra   = require('fs-extra');
 
 // Metalsmith
 var Metalsmith  = require('metalsmith');
-var markdown    = require('metalsmith-markdown');
-var permalinks  = require('metalsmith-permalinks');
 var pug         = require('metalsmith-pug');
 var ignore      = require('metalsmith-ignore');
 var stylus      = require('metalsmith-stylus');
@@ -25,8 +23,6 @@ Metalsmith(__dirname)
   .source('./src')
   .destination('./build')
   .clean(false)
-  .use(markdown())
-  .use(permalinks())
   .use(ignore([
     'includes/*',
     'css/import/*'

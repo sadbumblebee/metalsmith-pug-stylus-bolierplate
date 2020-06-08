@@ -48,6 +48,9 @@
 .*
 ~*
 
+# ignore build folder
+build/
+
 # ignore node/grunt dependency directories
 node_modules/
 

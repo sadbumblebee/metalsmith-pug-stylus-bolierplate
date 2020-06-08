@@ -1,4 +1,5 @@
 // NPM modules
+// Use whatever you like
 var _ = {};
 _.assign = require('lodash.assign');
 
@@ -9,7 +10,7 @@ var d3 = _.assign({},
 
 
 function init() {
-  // d3.select('p').remove()
+
 }
 
 // Bind on-load handler
