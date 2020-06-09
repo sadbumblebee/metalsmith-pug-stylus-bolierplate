@@ -3,10 +3,10 @@ html
 	head
 		meta(charset='utf-8')
 		meta(http-equiv='X-UA-Compatible', content='IE=edge')
-		title 'Wedding Website'
-		meta(name='description', content='Wedding Website')
-		meta(name='viewport', content='width=device-width, initial-scale=1')
-		//- link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic")
+		title!=locals.title
+		meta(name='description', content!=locals.description)
+		meta(property='og:title' content!=locals.title)
+		meta(property='og:description' content!= locals.description)
 		link(rel='stylesheet', href='css/site.css')
 		link(rel="icon" href="/favicon.ico")
 
