@@ -10,10 +10,10 @@ var d3 = _.assign({},
 
 
 function init() {
-
+  
 }
 
 // Bind on-load handler
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   init();
 });

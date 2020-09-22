@@ -1,0 +1,7 @@
+{
+    "plugins": {
+      "metalsmith-babel": {
+        "presets": [["@babel/preset-env", { "targets": "defaults" }]]
+      }
+    }
+  }
